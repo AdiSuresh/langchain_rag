@@ -9,4 +9,16 @@
 
 ## Setup:
 
-`pip install -r requirements.txt`
+1. `python -m venv .venv` - setup virtual environment
+
+2. `pip install -r requirements.txt` - install required libraries
+
+3. Get API Key from [LangSmith](https://smith.langchain.com/o/851a7f35-766e-539c-ac83-166eb61ee3cc/)
+
+4. Get API key from [groq](https://console.groq.com/keys) 
+
+5. [Install Ollama CLI](https://ollama.com/download/OllamaSetup.exe)
+
+6. ```bash
+    ollama run llama3.1 # run in bash for ubuntu or cmd for windows
+    ```
